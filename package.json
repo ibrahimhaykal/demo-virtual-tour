@@ -6,8 +6,9 @@
     "vite": "^6.3.6"
   },
   "scripts": {
+    "prebuild": "chmod +x node_modules/.bin/vite || true",
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run prebuild && vite build",
     "preview": "vite preview"
   }
 }
