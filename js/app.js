@@ -1,4 +1,5 @@
 // app.js
+import 'es-module-shims';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import TWEEN from '@tweenjs/tween.js';
