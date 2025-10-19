@@ -54,7 +54,7 @@ const locations = {
     'halaman_depan': {
         name: 'Halaman Depan',
         description: 'Tipe 36/72 – 2 Kamar Tidur, 1 Kamar Mandi, Carport Luas.',
-        panorama: '/public/images/panorama/depan.png',
+        panorama: '/public/images/panorama/depan_optimize.jpg',
         hotspots: [
             {
                 position: new THREE.Vector3(-15, -2, -5),
@@ -66,7 +66,7 @@ const locations = {
     'ruang_tamu': {
         name: 'Ruang Tamu',
         description: 'Desain interior modern dengan pencahayaan alami yang optimal.',
-        panorama: '/public/images/panorama/ruang_tamu.jpg',
+        panorama: '/public/images/panorama/ruang_tamu_optimize.jpg',
         hotspots: [
             {
                 position: new THREE.Vector3(-10, -2, -15),
@@ -83,7 +83,7 @@ const locations = {
     'dapur': {
         name: 'Dapur',
         description: 'Dapur bersih dengan kitchen set minimalis dan fungsional.',
-        panorama: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=1935&auto=format&fit=crop',
+        panorama: '/public/images/panorama/dapur.jpg',
         hotspots: [
             {
                 position: new THREE.Vector3(12, -4, 15),
